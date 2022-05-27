@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   function initMap() {
     const map = new window.google.maps.Map(document.getElementById('map'), {
-      zoom: 7,
+      zoom: 10,
       center: { lat: 13.87256, lng: 100.54448 },
       mapTypeId: 'terrain',
     });
